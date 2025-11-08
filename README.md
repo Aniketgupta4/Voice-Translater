@@ -1,34 +1,50 @@
-🗣️ Text-to-Speech Converter
+# 🗣️ Text-to-Speech Converter
 
-A fun and interactive Text-to-Speech Web App built using HTML, CSS, and JavaScript 🎧
-This project converts the text you type into natural-sounding speech using the Web Speech API available in modern browsers.
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
+![Open Source](https://img.shields.io/badge/Open%20Source-💻-brightgreen)
+![Made with ❤️ by Aniket](https://img.shields.io/badge/Made%20with-❤️-red)
 
-🚀 Project Overview
+> 🎧 A fun browser-based app that turns your text into speech using JavaScript & Web Speech API.
 
-This is a simple web application that allows users to:
+---
 
-✍️ Type or paste any text in the text box
+## 🚀 **Overview**
 
-🎤 Select from multiple available voices
+This is a simple yet engaging **Text-to-Speech Web App** built using  
+💡 **HTML**, **CSS**, and **JavaScript**.  
 
-🔊 Click a button to hear the text spoken aloud
+It allows users to:  
+- ✍️ Type or paste text  
+- 🔊 Convert text into speech  
+- 🎤 Select from multiple voices (male/female, accents)  
 
-It’s a great beginner-friendly project for learning JavaScript DOM manipulation and Web APIs.
+Perfect for learning **DOM manipulation**, **Web APIs**, and **frontend logic**.
 
-🧰 Technologies Used
+---
 
-HTML5 → Page structure
+## 🧰 **Tech Stack**
 
-CSS3 → Styling and layout
+| Tech | Description |
+|------|-------------|
+| 🧱 HTML5 | Structure and layout |
+| 🎨 CSS3 | Styling and responsiveness |
+| ⚙️ JavaScript (ES6) | Logic and interactivity |
+| 🗣️ Web Speech API | Converts text to spoken output |
 
-JavaScript (ES6) → App logic and functionality
+---
 
-Web Speech API → Browser-based speech synthesis
+## ⚙️ **How It Works**
 
-⚙️ How It Works
+1. User types text in the **textarea**.  
+2. App fetches available voices from the browser using `speechSynthesis.getVoices()`.  
+3. On clicking **Speak**, it uses `SpeechSynthesisUtterance()` to read the text aloud.  
 
-The app uses the SpeechSynthesisUtterance() interface to create a speech object.
+---
 
-It fetches available voices from the system using speechSynthesis.getVoices().
+## 💻 **Setup & Usage**
 
-When you type text and click Speak, the app reads it aloud using your chosen voice.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/text-to-speech.git
